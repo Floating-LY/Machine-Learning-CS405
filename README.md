@@ -10,8 +10,12 @@ Comparison.py：此文件使用了segmentation_models.pytorch库（https://githu
 实验结果在报告中Section2部分展示  
 
 
-Unet.py：此文件定义了1、Unet基础block、Unet上采样模块和Unet网络；2、数据读入Dataset和DataLoader；3、Unet训练的main函数。
+Unet.py：此文件定义了1:Unet基础block、Unet上采样模块和Unet网络；2:数据读入Dataset和DataLoader；3:Unet训练的main函数。
 参考注释在get_args()函数中可修改超参数和其余设置，linux运行实例："python Unet.py"。
+实验结果在报告中Section5部分展示  
+
+cnn.py：此文件定义了1:cnn网络；2:数据读入Dataset和DataLoader；3:cnn训练的main函数。
+参考注释在get_args()函数中可修改超参数和其余设置，linux运行实例："python cnn.py"。
 实验结果在报告中Section5部分展示  
 
 
