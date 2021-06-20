@@ -9,3 +9,4 @@ Comparison.py：此文件使用了segmentation_models.pytorch库（https://githu
 统一设置ResNet34作为encoder，encoder_depth设置为5,  通过更改模型名字进行训练与验证得到最终结果  
 实验结果在报告中Section2部分展示  
 
+utils.py：此文件用于计算vinfo和vrand，作为评价模型的指标
